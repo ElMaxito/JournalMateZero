@@ -14,7 +14,6 @@ const RecentInsights: React.FC = () => (
 
 const Main: React.FC = () => (
   <div className="main-content">
-    <h1 className="page-title">Welcome to JournalMate</h1>
     <div className="content-layout">
       <RecentInsights />
       <div className="record-section">

@@ -19,25 +19,18 @@ const RecordingsList: React.FC = () => {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    const options: Intl.DateTimeFormatOptions = { 
-      weekday: 'long', 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    };
-    return date.toLocaleDateString(undefined, options);
+    return `${date.toLocaleDateString()} ${date.toLocaleTimeString()} (${date.toLocaleString('en-US', { weekday: 'long' })})`;
   };
 
   return (
-    <div>
+    <div className="recordings-list">
       <h2>Recordings</h2>
-      <ul>
-        {recordings.map((recording) => (
-          <li key={recording.name}>
-            {recording.name} - {formatDate(recording.date)}
-          </li>
-        ))}
-      </ul>
+      {recordings.map((recording) => (
+        <div key={recording.name} className="recording-card">
+          <div className="recording-name">{recording.name}</div>
+          <div className="recording-date">{formatDate(recording.date)}</div>
+        </div>
+      ))}
     </div>
   );
 };

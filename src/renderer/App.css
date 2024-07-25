@@ -247,3 +247,45 @@ body {
 .stat-change.negative {
   color: #f56565;
 }
+
+/* Add these styles to your existing App.css */
+
+.record-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.record-button.recording {
+  background-color: #f44336;
+}
+
+.recordings-list {
+  margin-top: 20px;
+}
+
+.recording-card {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.recording-name {
+  font-weight: bold;
+}
+
+.recording-date {
+  color: #666;
+  font-size: 0.9em;
+}
