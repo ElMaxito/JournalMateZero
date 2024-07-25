@@ -1,3 +1,5 @@
+// src/main/main.ts
+
 import path from 'path';
 import { app, ipcMain } from 'electron';
 import { WindowManager } from './windowManager';

@@ -1,3 +1,5 @@
+// src/renderer/pages/Main.tsx
+
 import React from 'react';
 import RecordButton from '../components/RecordButton';
 

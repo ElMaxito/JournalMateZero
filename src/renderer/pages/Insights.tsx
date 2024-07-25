@@ -1,3 +1,5 @@
+// src/renderer/pages/Insights.tsx
+
 import React from 'react';
 
 const Insights: React.FC = () => (

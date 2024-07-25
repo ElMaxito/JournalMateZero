@@ -1,3 +1,5 @@
+// src/renderer/pages/Entries.tsx
+
 import React from 'react';
 
 const Entries: React.FC = () => (

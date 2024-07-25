@@ -1,3 +1,5 @@
+// src/main/audioRecorder.ts
+
 import { BrowserWindow, ipcMain } from 'electron';
 import path from 'path';
 

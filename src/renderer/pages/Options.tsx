@@ -1,3 +1,5 @@
+// src/renderer/pages/Options.tsx
+
 import React from 'react';
 
 const Options: React.FC = () => (

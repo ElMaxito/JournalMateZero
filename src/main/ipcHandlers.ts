@@ -1,3 +1,5 @@
+// src/icpHandlers.ts
+
 import { ipcMain } from 'electron';
 import { FileManager } from './fileManager';
 
